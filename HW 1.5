@@ -1,0 +1,15 @@
+number_1 = float(input('Enter your expenses, euro: '))
+number_2 = float(input('Enter your income, euro: '))
+balance = float(number_2 - number_1)
+
+if number_1 < number_2:
+    print('Your balance is positive')
+    print(balance, 'euro')
+    employers = float(input('Enter quantity of employers in company: '))
+    print(balance / employers, 'euro pro employer')
+
+elif number_1 == number_2:
+    print('Your balance have been not positive dynamics')
+
+else:
+    print('Your balance is negative')
